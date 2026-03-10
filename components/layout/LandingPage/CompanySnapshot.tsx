@@ -22,7 +22,7 @@ export default function CompanySnapshot() {
                 <div className="flex flex-col lg:flex-row gap-16 lg:gap-24 items-start">
 
                     {/* Left Side: 2x2 Grid - Massive Presence */}
-                    <div className="w-full lg:w-[55%] pt-22">
+                    <div className="w-full lg:w-[55%] pt-22 order-2 lg:order-1">
                         <div className="grid grid-cols-1 md:grid-cols-2 bg-white/10 gap-[2px] border border-white/5 shadow-[0_20px_50px_rgba(0,17,53,0.15)] overflow-hidden">
                             {gridItems.map((item, index) => (
                                 <div
@@ -42,7 +42,7 @@ export default function CompanySnapshot() {
                     </div>
 
                     {/* Right Side: Content */}
-                    <div className="w-full lg:w-[45%] pt-4">
+                    <div className="w-full lg:w-[45%] pt-4 order-1 lg:order-2">
                         <span className="text-brand-yellow font-barlow-condensed font-bold text-[13px] tracking-[0.25em] uppercase mb-4 block">
                             COMPANY SNAPSHOT
                         </span>
