@@ -14,10 +14,8 @@ import ContactUs from "@/components/layout/LandingPage/ContactUs";
 export default function Home() {
   return (
     <div className="relative bg-brand-navy">
-      <div className="relative">
-        <Hero />
-        <StatsBar />
-      </div>
+      <Hero />
+      <StatsBar />
       <CompanySnapshot />
       <CoreServices />
       <QualitySafety />
