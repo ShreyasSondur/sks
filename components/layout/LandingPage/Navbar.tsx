@@ -25,6 +25,7 @@ const NAV_ITEMS: NavItem[] = [
     },
     { label: "QUALITY", href: "/#quality" },
     { label: "CLIENTS", href: "/#clients" },
+    { label: "SSSKS", href: "/sssks" },
 ];
 
 // ─── SKS Logo ─────────────────────────────────────────────────────────────────
@@ -397,7 +398,7 @@ export default function Navbar() {
                             ENQUIRE
                         </Link>
                         <Link
-                            href="/skar"
+                            href="/sssks"
                             onClick={() => setMobileOpen(false)}
                             className="text-center px-5 py-2.5 text-[10px] tracking-[0.18em] text-[var(--brand-navy)] bg-[var(--brand-yellow)] hover:bg-[#e6a800] transition-colors duration-200 rounded-[10px]"
                             style={{
@@ -405,7 +406,7 @@ export default function Navbar() {
                                 fontWeight: 600,
                             }}
                         >
-                            SKAR
+                            SSSKS
                         </Link>
                     </div>
                 </div>

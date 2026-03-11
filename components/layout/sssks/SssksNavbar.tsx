@@ -289,7 +289,7 @@ function HamburgerIcon({ open }: { open: boolean }) {
 }
 
 // ─── Main Navbar ──────────────────────────────────────────────────────────────
-export default function Navbar() {
+export default function SssksNavbar() {
     const [mobileOpen, setMobileOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
 
